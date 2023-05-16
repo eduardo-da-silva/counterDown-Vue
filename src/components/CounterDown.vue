@@ -9,17 +9,17 @@
 </template>
 
 <script>
-import { defineAsyncComponent } from "vue";
-const Circle = defineAsyncComponent(() => import("./Circle.vue"));
+import { defineAsyncComponent } from 'vue';
+const Circle = defineAsyncComponent(() => import('./Circle.vue'));
 
 export default {
-  name: "CounterDown",
+  name: 'CounterDown',
   components: {
     Circle,
   },
   data() {
     return {
-      date: "2021-12-25",
+      date: '2023-12-25',
       initialDays: null,
       days: null,
       hours: null,
@@ -53,13 +53,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-input {
+/* input {
   position: fixed;
   top: 10px;
   left: 10px;
   width: 180px;
-}
+} */
 .remaingTime {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
