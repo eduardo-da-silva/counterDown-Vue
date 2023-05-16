@@ -34,6 +34,9 @@ If using yarn, run the following command to start the app:
 yarn serve
 ```
 
+## Online demo
+
+You can see a demo of this app running [here](http://eduardo-counterdown.surge.sh).
 
 # Contador regressivo
 
@@ -67,3 +70,6 @@ Se estiver usando yarn, execute o seguinte comando para iniciar o aplicativo:
 yarn serve
 ```
 
+## Demo online
+
+Você pode ver uma demonstração deste aplicativo em execução [aqui](http://eduardo-counterdown.surge.sh).
